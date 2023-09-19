@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="Header">
+        <nav class="menu">
+        
+            <input type="checkbox" id="check">
+            <h2 class="logo">sunnyside</h2>
+            <ul class="list-menu">
+                <li><a href="#" class="aaa">About</a></li>
+                <li><a href="#" class="aaa">Services</a></li>
+                <li><a href="#" class="aaa">Projects</a></li>
+                <li><a href="#" class="btn-contact">CONTACT</a></li>
+            </ul>
+            <label for="check" class="checkbtn"> <img src="./images/menu-icon-white-png-27.jpg" alt="menu hamburger" class="menu-hamberger"> </label>
+            
+        </nav>
+        <h1 class="slogan">WE ARE CERATIVES </h1>
+        <img src="./images/icon-arrow-down.svg" alt="" class="img-row">
+
+    </div>
+    <div class="section">
+        <div class="part-info">
+            <h5>Transform your brand </h5>
+            <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
+                through coompelling visuals that do the most of the marketing for you. </p>
+            <div class="learn-parent">
+                <a href="#" class="learn learn-transform"> LEARN MORE</a>
+            </div>
+        </div>
+        <div class="part-info brand-bg">
+
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="part-info stand-bg">
+
+        </div>
+        <div class="part-info">
+            <h5>Stand out to the right audience </h5>
+            <p>Using a collaborative formula of designers; researches,photographers,videographers and copywriters, we'll
+                build extend your in digital places. </p>
+            <div class="learn-parent">
+                <a href="#" class="learn learn-stand"> LEARN MORE</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="section">
+        <div class="part-info graphic-bg">
+            <h5>Graphic design </h5>
+            <p>Great design makes your memorable. We deliver artwork that underscores your brand message and captures
+                your potential client's attention.</p>
+        </div>
+
+        <div class="part-info photo-bg">
+            <h5>Photography</h5>
+            <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                image.</p>
+        </div>
+    </div>
+    <div class="titre-temoignage">
+        <h3>CLIENTS TESTIMONIALS</h3>
+    </div>
+    <div class="prt">
+        <div class="testimonies">
+            <figure class="img-1">
+                <img src="images/image-emily.jpg" alt="emily">
+                <figcaption>
+                    <p>We put our trust in Sunnyside and they <br> delivered, making sure our needs were met <br>
+                        and deadlines
+                        were always hit.</p>
+                    <h5>Emily R.</h5><br>
+
+                    <span>Marketing Director</span>
+
+                </figcaption>
+
+            </figure>
+        </div>
+
+        <div class="testimonies">
+            <figure class="img-1">
+                <img src="images/image-thomas.jpg" alt="emily">
+                <figcaption>
+                    <p>Sunnyside's enthusiasm's coupled with their <br> keen interest in our brand's success made it
+                        <br> a
+                        satisfying and enjoyable experience.
+                    </p>
+                    <h5>Thomas S.</h5>
+                    <br>
+                    <span>Chief Operating Officer</span>
+
+                </figcaption>
+
+            </figure>
+        </div>
+
+        <div class="testimonies">
+            <figure class="img-1">
+                <img src="images/image-jennie.jpg" alt="emily">
+                <figcaption>
+                    <p>Incredible end result! Our sales increased <br> over 400% when we worked with Sunnyside. <br>
+                        Highly recommanded!
+                    </p>
+                    <h5>Jenny F.</h5><br>
+
+                    <span>Business Owner</span>
+
+                </figcaption>
+
+            </figure>
+        </div>
+    </div>
+    <div class="last-bloc">
+        <div class="pict">
+            <img src="images/image-gallery-milkbottles.jpg" alt="">
+        </div>
+        <div class="pict">
+            <img src="images/image-gallery-orange.jpg" alt="">
+        </div>
+        <div class="pict">
+            <img src="images/image-gallery-cone.jpg" alt="">
+        </div>
+        <div class="pict">
+            <img src="images/image-gallery-sugarcubes.jpg" alt="">
+        </div>
+    </div>
+    <div class="footer">
+        <h5>sunnyside</h5>
+        <div>
+            <ul class="links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services </a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+        <div class="medias">
+            <ul class="sociaux">
+                <li><a href="#"> <img src="images/icon-facebook.svg" alt=""> </a></li>
+                <li><a href="#"> <img src="images/icon-instagram.svg" alt=""> </a></li>
+                <li><a href="#"> <img src="images/icon-twitter.svg" alt=""> </a></li>
+                <li><a href="#"> <img src="images/icon-pinterest.svg" alt=""> </a></li>
+
+            </ul>
+
+        </div>
+
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamberger")
+    const navLinks = document.querySelector(".Header")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+
+</script>
+
+</html>
