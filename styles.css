@@ -36,7 +36,7 @@
 .aaa:hover{
   position: sticky;
   color: yellow;
-  border: solid;
+
   
 
 }
@@ -289,14 +289,23 @@ ul a {
     z-index: 2;
   }
   .aaa {
-    color: white;
+    color: black;
     font-weight: bold;
   }
   .aaa:hover{
-    position: sticky;
+    /* position: sticky;
     color: yellow;
-    border: solid;
+    border: solid; */
     
+
+    background-color: yellow;
+    color: white;
+    border: 5px solid yellow;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    text-align: center;
 
   }
   .list-menu {
